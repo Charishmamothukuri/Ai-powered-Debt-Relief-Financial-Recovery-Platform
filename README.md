@@ -1,30 +1,27 @@
 # AI Powered Debt Relief & Financial Recovery Platform
 
-## About the Project
+## 📌 About the Project
 
-This project was developed to help users manage their loans and better understand their financial situation using Artificial Intelligence. It allows users to store loan details, analyze their financial health, estimate possible debt settlements, and generate professional loan negotiation letters with the help of Google Gemini AI.
-
-The main objective of this project is to combine financial analysis with AI to provide users with practical suggestions that can support better financial decision-making.
+AI Powered Debt Relief & Financial Recovery Platform is a web application that helps users manage their loans, analyze their financial health, and receive AI-powered suggestions for debt recovery. The platform also generates negotiation letters and predicts possible debt settlements using Google Gemini AI.
 
 ---
 
-## Features
+## ✨ Features
 
-- User Registration and Login
-- Secure Authentication
-- Add, Update and Delete Loan Details
-- View Complete Loan Portfolio
-- Financial Health Analysis
+- User Registration & Login
+- Secure JWT Authentication
+- Loan Management (Add, Update, Delete)
+- Financial Dashboard
 - Debt-to-Income Ratio Calculation
-- AI-Based Settlement Prediction
+- AI Financial Health Analysis
+- AI Debt Settlement Prediction
 - AI Negotiation Letter Generation
-- Settlement History
-- Responsive Dashboard
-- Google Gemini AI Integration
+- Settlement History Tracking
+- Responsive User Interface
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 - React
@@ -33,118 +30,76 @@ The main objective of this project is to combine financial analysis with AI to p
 - CSS
 
 ### Backend
-- Node.js
-- TypeScript
+- FastAPI
+- Python
+- SQLAlchemy
+- SQLite
+- JWT Authentication
 
 ### AI
-- Google Gemini API
-
-### Database
-- JSON Database (db.json)
+- Google Gemini AI
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 server/
-    db.ts
-    gemini.ts
-
 src/
-    components/
-    App.tsx
-    main.tsx
-    index.css
-    types.ts
-
-server.ts
-db.json
-package.json
 README.md
+package.json
+vite.config.ts
 ```
 
 ---
 
-## How to Run the Project
+## 🚀 Installation
 
-Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Powered-Debt-Relief-Financial-Recovery-Platform.git
+git clone https://github.com/YOUR_USERNAME/Ai-powered-Debt-Relief-Financial-Recovery-Platform.git
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file in the project folder and add your Gemini API key.
-
-Example:
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-APP_URL=http://localhost:3000
-```
-
-Start the project
+### Start Frontend
 
 ```bash
 npm run dev
 ```
 
-Open the browser:
+### Start Backend
 
+```bash
+cd server
+python main.py
 ```
-http://localhost:3000
-```
 
 ---
 
-## What I Learned
+## 🎯 Future Enhancements
 
-Working on this project helped me improve my understanding of:
-
-- React and TypeScript
-- Component-based UI development
-- API integration
-- Google Gemini AI
-- Financial data analysis
-- State management
-- Building responsive user interfaces
-- Organizing a full-stack project
-
-It also gave me practical experience in connecting AI services with a real-world web application.
+- Email Notifications
+- Credit Score Analysis
+- Payment Reminder System
+- Multi-Language Support
+- Cloud Database Integration
 
 ---
 
-## Future Improvements
+## 👩‍💻 Author
 
-Some features that can be added in future versions include:
+**Kolusu Harshini**
 
-- PDF download for AI-generated letters
-- Email integration
-- Cloud database support
-- Loan repayment reminders
-- Credit score prediction
-- Admin dashboard
-- Dark mode
-- Mobile application
+B.Tech CSE Student
 
 ---
 
-## Author
+## 📄 License
 
-**Charishma Mothukuri**
-
-B.Tech Computer Science and Engineering
-
-Seshadri Rao Gudlavalleru Engineering College
-
-Graduation Year: 2027
-
----
-
-This project was developed as an academic project to explore the use of Artificial Intelligence in financial assistance and debt management.
+This project is developed for educational and internship purposes.

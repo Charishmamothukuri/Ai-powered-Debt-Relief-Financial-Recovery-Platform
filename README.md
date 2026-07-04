@@ -1,4 +1,9 @@
 # AI Powered Debt Relief & Financial Recovery Platform
+## 🎥 Project Demo
+
+A short demonstration of the AI Powered Debt Relief & Financial Recovery Platform is available here:
+
+▶ **Demo Video:** https://drive.google.com/file/d/1icNHtbAT5ARCtSqGkMV5Ret_bxV3pI08/view?usp=sharing
 
 ## About the Project
 

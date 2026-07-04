@@ -7,6 +7,7 @@ This project was developed to help users manage their loans and better understan
 
 The main objective of this project is to combine financial analysis with AI to provide users with practical suggestions that can support better financial decision-making.
 
+---
 
 ## Features
 
@@ -22,6 +23,7 @@ The main objective of this project is to combine financial analysis with AI to p
 - Responsive Dashboard
 - Google Gemini AI Integration
 
+---
 
 ## Technologies Used
 
